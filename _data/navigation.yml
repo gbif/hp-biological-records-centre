@@ -6,10 +6,6 @@
   menu: 
   - text: Occurrences
     href: /occurrence/search
-  - text: Datasets
-    href: /dataset/search
-  - text: Collections
-    href: /collection/search
   - text: Literature
     href: /literature/search
 - text: Links

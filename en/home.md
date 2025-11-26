@@ -1,7 +1,7 @@
 ---
 lang-ref: home
 layout: home
-title: My headline
+title: Biological Records Centre
 description: Lorem markdownum spatium limes indefessus neque *at* orat aestuat
 background: /assets/images/placeholders/templates/w1600h800.png
 imageLicense: None for this image
@@ -10,8 +10,8 @@ cta:
   - text: Occurrences
     href: /occurrence/search
     isPrimary: true # this will break as it is illegal yaml
-  - text: Datasets
-    href: /dataset/search
+  - text: Literature
+    href: /literature/search
 permalink: /
 ---
 

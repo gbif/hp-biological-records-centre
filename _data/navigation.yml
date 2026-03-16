@@ -10,17 +10,17 @@
     href: /literature/search
 - text: Links
   menu: # Dropdown menu (one level deep only)
-  - text: Base theme demo
-    href: https://hp-base-theme.gbif-staging.org/
-  - text: Other sites using the theme
-    href: https://github.com/gbif/?q=hp-&type=all&language=&sort=
+  - text: Biological Records Centre
+    href: https://www.brc.ac.uk/
+  - text: UK Centre for Ecology & Hyrdology
+    href: https://www.ceh.ac.uk/
   - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: "Docs" # Title for block of menu items
-  - text: Jekyll documentation
-    href: https://jekyllrb.com/docs/pages/
-  - text: Markdown tutorial
-    href: https://guides.github.com/features/mastering-markdown/
-  - text: YAML tutorial
-    href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
+  - text: "Non GBIF data" # Title for block of menu items
+  - text: NBN Atlas
+    href: https://nbnatlas.org/
+  - text: EIDC
+    href: https://eidc.ac.uk/
+  - text: BSBI
+    href: https://bsbi.org/recording/maps-data
 - text: News
   href: /news/

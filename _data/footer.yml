@@ -5,27 +5,28 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - name: Column example
+  - name: About
     description: | # Can be Markdown and multiline as shown here. 
-      This is an example column. You can add as many as you want.
-      Each column can have a name, an optional description and optional links.
-      You can also enable social icons for a column (e.g. for a "Contact" column).
+      The Biological Records Centre is part of the UK Centre for Ecology & Hydrology. For further information see the following websites:
     links:
-    - text: Name of project partner 1
-      href: http://example.com
-    - text: Name of project partner 2
-      href: http://example.com
+    - text: Biological Records Centre
+      href: https://www.brc.ac.uk/
+    - text: UK Centre for Ecology & Hydrology
+      href: https://www.ceh.ac.uk/
 
   - name: Code
     description: | # Can be Markdown
-      See `_data/footer.yml` to customize the footer.
+      This project is open source.
+      The files are available on [GitHub](https://github.com/gbif/hp-biological-records-centre).
   
   - name: Contact
     description: | # Can be Markdown
-      Social icons links defined in `_config.yml`
-      * Street name
-      * 1234 postal code
-      * Country
+      **Biological Records Centre**
+      **UK Centre for Ecology & Hydrology**
+      * Maclean Building
+      * Benson Lane, Crowmarsh Gifford
+      * Wallingford
+      * United Kingdom
     connectIcons: true # Show social icons (defined in _config.yml)
 
 

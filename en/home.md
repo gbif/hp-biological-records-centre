@@ -2,7 +2,7 @@
 lang-ref: home
 layout: home
 title: Biological Records Centre
-description: Lorem markdownum spatium limes indefessus neque *at* orat aestuat
+description: This is the GBIF Hosted Portal for the Biological Records Centre. Here you'll find occurrence records, datasets, from a range data providers that the BRC has worked with or assisted to collect & process data and to make this data available via GBIF.
 # background: /assets/images/HL_BRC50th_3381.jpg
 background: /assets/images/placeholders/brc_home_resized.png
 imageLicense: None for this image
@@ -16,7 +16,7 @@ cta:
 permalink: /
 ---
 
-The [Biological Records Centre](https://www.brc.ac.uk/) is part of the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk/) and works in partnership with more than 100 [recording schemes and societies](https://www.brc.ac.uk/recording-schemes) to mobilize species occurrence records in the UK. 
+The [Biological Records Centre](https://www.brc.ac.uk/) is part of the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk/) and works in partnership with more than 100 [recording schemes and societies](https://www.brc.ac.uk/recording-schemes) to mobilize species occurrence records in the UK. The mobilization of data from these recording schemes & socities through to GBIF is often via the [National Biodiversity Network (NBN)](https://nbnatlas.org/).
 
 Since its establishment in1964, the BRC has helped to mobilize over XXXX records, covering a broad range of animal and plant group. Verification workflows are well-developed by the schemes to ensure that the data are accurate.  
 

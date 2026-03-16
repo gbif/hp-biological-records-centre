@@ -22,4 +22,6 @@ Since its establishment in1964, the BRC has helped to mobilize over 100 Million 
 
 These data have been used for local and national assessments of biodiversity change, including official biodiversity indicators, as well as address a range of basic and applied research questions. 
 
-The BRC also helps the community to publish regional and national atlases, provide data and website infrastructure, develop verification workflows, and provide tools to support the involvement of citizen scientists in biodiversity monitoring. Please see our [website](https://www.brc.ac.uk/) for more details. 
+The BRC also helps the community to publish regional and national atlases, provide data and website infrastructure, develop verification workflows, and provide tools to support the involvement of citizen scientists in biodiversity monitoring. Please see our [website](https://www.brc.ac.uk/) for more details.
+
+There is currently <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?limit=0"></span> occurrences published by the GBIF network.

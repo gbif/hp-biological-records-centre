@@ -18,9 +18,9 @@
   - text: "Non GBIF data" # Title for block of menu items
   - text: NBN Atlas
     href: https://nbnatlas.org/
-  - text: EIDC
+  - text: Environmental Information Data Centre
     href: https://eidc.ac.uk/
-  - text: BSBI
+  - text: Botanical Society of Britain & Ireland
     href: https://bsbi.org/recording/maps-data
 - text: News
   href: /news/

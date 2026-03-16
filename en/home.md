@@ -3,7 +3,7 @@ lang-ref: home
 layout: home
 title: Biological Records Centre
 description: Lorem markdownum spatium limes indefessus neque *at* orat aestuat
-background: /assets/images/placeholders/templates/w1600h800.png
+background: /assets/images/placeholders/brc_home_resized.png
 imageLicense: None for this image
 height: 70vh
 cta:

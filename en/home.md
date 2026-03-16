@@ -3,7 +3,7 @@ lang-ref: home
 layout: home
 title: Biological Records Centre
 description: Lorem markdownum spatium limes indefessus neque *at* orat aestuat
-background: /assets/images/placeholders/brc_home.png
+background: /assets/images/placeholders/templates/w1600h800.png
 imageLicense: None for this image
 height: 70vh
 cta:
@@ -14,8 +14,6 @@ cta:
     href: /literature/search
 permalink: /
 ---
-
-Edit `/home.md` to change the text.
 
 The [Biological Records Centre](https://www.brc.ac.uk/) is part of the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk/) and works in partnership with more than 100 [recording schemes and societies](https://www.brc.ac.uk/recording-schemes) to mobilize species occurrence records in the UK. 
 

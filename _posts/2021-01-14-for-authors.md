@@ -3,7 +3,7 @@ title:  "BRC GBIF hosted portal"
 date:   2021-01-14 15:20:00 +0100
 categories: ["News"]
 lang-ref: for authors
-background: /assets/images/placeholders/templates/w600h400.png
+background: /assets/images/brc_gbif_logos.png
 ---
 BRC GBIF hosted portal in development.
 

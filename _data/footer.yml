@@ -21,7 +21,7 @@ columns:
   
   - name: Contact
     description: | # Can be Markdown
-      **Biological Records Centre**
+      **Biological Records Centre** \
       **UK Centre for Ecology & Hydrology**
       * Maclean Building
       * Benson Lane, Crowmarsh Gifford

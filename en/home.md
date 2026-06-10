@@ -5,7 +5,7 @@ title: Biological Records Centre
 description: This is the GBIF Hosted Portal for the Biological Records Centre. Here you'll find occurrence records & datasets from a range data providers that the BRC has worked with or assisted to collect & process data and to make this data available via GBIF.
 # background: /assets/images/HL_BRC50th_3381.jpg
 background: /assets/images/placeholders/brc_home_resized.png
-imageLicense: None for this image
+imageLicense: © Miranda Bane (Illustrations) and Andy Sier (Design)
 height: 70vh
 cta:
   - text: Occurrences

@@ -10,6 +10,8 @@
     href: /occurrence/search
   - text: Literature
     href: /literature/search
+- text: Recording Schemes
+  href: /schemes/
 - text: Links
   menu: # Dropdown menu (one level deep only)
   - text: Biological Records Centre

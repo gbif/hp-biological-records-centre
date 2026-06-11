@@ -10,8 +10,12 @@
     href: /occurrence/search
   - text: Literature
     href: /literature/search
-- text: Recording Schemes
+  - text: Non-GBIF data
+  - text: Using the data
+- text: Schemes
   href: /schemes/
+- text: Resources
+  href: /resources/
 - text: Links
   menu: # Dropdown menu (one level deep only)
   - text: Biological Records Centre

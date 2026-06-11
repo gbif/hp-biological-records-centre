@@ -11,7 +11,9 @@
   - text: Literature
     href: /literature/search
   - text: Non-GBIF data
+    href: /nongbif/
   - text: Using the data
+    href: /usingdata/
 - text: Schemes
   href: /schemes/
 - text: Resources

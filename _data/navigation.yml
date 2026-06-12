@@ -25,7 +25,6 @@
   - text: UK Centre for Ecology & Hyrdology
     href: https://www.ceh.ac.uk/
   - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: "Non GBIF data" # Title for block of menu items
   - text: NBN Atlas
     href: https://nbnatlas.org/
   - text: Environmental Information Data Centre

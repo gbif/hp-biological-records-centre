@@ -7,17 +7,15 @@
 columns:
   - name: About
     description: | # Can be Markdown and multiline as shown here. 
-      The Biological Records Centre is part of the UK Centre for Ecology & Hydrology. For further information see the following websites:
-    links:
-    - text: Biological Records Centre
-      href: https://www.brc.ac.uk/
-    - text: UK Centre for Ecology & Hydrology
-      href: https://www.ceh.ac.uk/
+      The [**Biological Records Centre**](https://www.brc.ac.uk/) is part of the [**UK Centre for Ecology & Hydrology**](https://www.ceh.ac.uk/). \
+      \
+      This site was facilitated by the [**NBN Atlas**](https://nbnatlas.org/) as the UK’s largest repository of publicly available biodiversity data. 
+
 
   - name: Code
     description: | # Can be Markdown
-      This project is open source.
-      The files are available on [GitHub](https://github.com/gbif/hp-biological-records-centre).
+      The code for this hosted portal is open source.
+      The code is available on [GitHub](https://github.com/gbif/hp-biological-records-centre).
   
   - name: Contact
     description: | # Can be Markdown

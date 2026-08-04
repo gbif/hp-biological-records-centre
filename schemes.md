@@ -21,8 +21,9 @@ The following is a list of Recording Schemes and surveys in the UK:
     <p><a href="{{'https://www.gbif.org/publisher/' | append: scheme.gbif_prov}}">GBIF Provider</a></p>
     {% endunless %}
     {% unless scheme.gbif_data == null or scheme.gbif_data == "" %}
-    {% assign beatles = scheme.gbif_data | split: "; " %}
-    {% for id in beatles %}
+    {% assign ds = scheme.gbif_data | split: "; " %}
+    <strong>GBIF Datasets</strong>
+    {% for id in ds %}
       <p><a href="{{'https://www.gbif.org/dataset/' | append: id}}">{{id}}</a></p>
     {% endfor %}
     {% endunless %}

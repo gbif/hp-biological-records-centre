@@ -1,4 +1,113 @@
-name,organisation,taxa,website, 
-National Amphibian and Reptile Monitoring Programme, Amphibiian and Retpile Conservation,Reptiles and Amphibians, https://monitoring.arc-trust.org/
-National Botanical Recording, Botanical Society of Britain & Ireland, Plants, https://bsbi.org/recording/about-botanical-records
-Butterflies for the New Millennium, Butterfly Conservation, Butterflies, https://butterfly-conservation.org/butterflies/recording-and-monitoring
+type,name,description,gbif_prov,gbif_data,broad_taxa,taxa,logo,website
+recording scheme,Acari Recording Scheme,,,,Invertebrates,Mites,,
+society,Amphibian and Reptile Conservation,,d4b5490a-3267-4e96-94b3-9b93ea167051,,Vertebrates,Amphibians and reptiles,,
+recording scheme,Amphibian and Reptile Groups of the UK,,3ce82624-d07f-4a56-88c8-a903321a90fc,,Vertebrates,Amphibians and reptiles,,https://www.arguk.org/
+recording scheme,Anthomyiidae Recording Scheme,,,cf0a605d-7e32-4482-9e45-1a83bfd8061a,Insects,Anthomyiid flies,,https://www.dipterists.org.uk/anthomyiid-scheme/home
+recording scheme,Aquatic Coleoptera Recording Scheme,Now overseen by the Aquatic Coleoptera Conservation Trust but historically was run by the Balfour-Browne Club,76e846b0-1332-411e-a4fc-4e2251bfeea5; 9cb12d76-b816-41ad-aaed-1f71aa344034,,Insects,Aquatic beetles,,https://www.latissimus.org/
+recording scheme,Aquatic Heteroptera Recording Scheme,,2fc95322-47d4-4137-8ce7-f2a6e64f1209,80455677-4c00-4c3d-8290-446e459a9e9c,Insects,Water bugs,,https://aquaticbugs.com/
+recording scheme,Auchenorrhyncha Recording Scheme,,,03eafed8-48c0-4561-a7d5-827e2e946b3d,Insects,Leafhoppers & froghoppers,,https://www.ledra.co.uk/
+recording scheme,Barkfly Recording Scheme,,,bd3d6dd9-6ee1-4261-ade3-305d82e5d9bf,Insects,Barkflies,,https://www.brc.ac.uk/schemes/barkfly/homepage.htm
+recording scheme,"Bees, Wasps and Ants Recording Society",,,51b7fe74-b4d9-4027-bd75-8425bfcf5300,Insects,"Bees, Wasps, Ants",,https://bwars.com/
+Monitoring scheme,Beewalks,,,80df9ab6-fb28-422c-8b86-e92cf9bfdbf7,insects,,,https://beewalk.org.uk/
+recording scheme,Botanical Society of Britain and Ireland,,aa569acf-991d-4467-b327-8442f30ddbd2,,Plants,Flowering plants & ferns,,https://bsbi.org/
+monitoring scheme,Breeding Bird Survey,British Trust for Ornithology,,,Vertebrates,Birds,,https://www.bto.org/get-involved/volunteer/projects/bbs
+recording scheme,British Bryological Society,,32f1b389-5871-4da3-832f-9a89132520c5,,Plants,Mosses & liverworts,,https://www.britishbryologicalsociety.org.uk/
+recording scheme,British Dragonfly Society Recording Scheme,British Dragonfly Society,980451bb-e9d8-4984-8d68-0d9772ea1582,1270b3c8-ff55-4b63-a407-dcd7e08cd23f,Insects,Dragonflies & damselflies,,https://british-dragonflies.org.uk/
+study group,Migrant Dragonfly Project,Run by the British Dragonfly Society,980451bb-e9d8-4984-8d68-0d9772ea1582,,Insects,Dragonflies & damselflies,,
+recording scheme,British Lichen Society,,90da406e-9e67-4830-a480-befef56beedb,,Lichens,Lichens,,http://www.britishlichensociety.org.uk/
+recording scheme,British Mycological Society,,764dc23f-4a2f-4d81-93cb-3cf16077d191,,Fungi,Fungi,,https://www.britmycolsoc.org.uk/recording-fungi.html
+recording scheme,Centipede Recording Scheme,Run by the British Myriapod and Isopod Group,,,Invertebrates,Centipedes,,https://bmig.org.uk/
+recording scheme,Marine Isopod Recording Scheme,Run by the British Myriapod and Isopod Group,,,Invertebrates,Marine isopods,,https://bmig.org.uk/
+recording scheme,Millipede Recording Scheme,Run by the British Myriapod and Isopod Group,,b0a1b3d7-4383-4fa5-a5c9-ae2c1124297e,Invertebrates,Millipedes,,https://bmig.org.uk/
+recording scheme,Woodlice & Waterlice Recording Scheme,Run by the British Myriapod and Isopod Group,,8a37280c-9310-4ce9-835c-5a14d35b84aa,Invertebrates,Woodlice and Waterlice,,https://bmig.org.uk/
+study group,British Phycological Society,,,,Plants,Seaweeds and freshwater algae,,https://brphycsoc.org/
+recording scheme,British Trust for Ornithology,,,,Vertebrates,Birds,,https://www.bto.org/
+monitoring scheme,Bumblebee Conservation Trust BeeWalks,,4ae6aa70-3374-49d3-b0e8-47c2da4fb69a,80df9ab6-fb28-422c-8b86-e92cf9bfdbf7,Insects,Bumblebees,,https://beewalk.org.uk/
+recording scheme,Butterflies for the New Millennium,,0d72dd7f-6f05-46af-85c2-8b6e77ce5534,d59ea6f3-f758-4d84-8c90-be078629127e; a7e947a1-15d4-43ab-a244-b4e7511e5423,Insects,Butterflies,,https://butterfly-conservation.org/
+recording scheme,Caddisfly Recording Scheme,Collected together under Riverfly Recording Schemes,125b5016-8748-43a8-ae03-632345d3262a,5187a2f9-91f1-4511-b4f0-60a2658a7e36; bba60198-3eb5-4101-954d-3e2c87df4b73,Insects,Caddisflies,,https://schemes.brc.ac.uk/rrs/trichoptera.htm
+recording scheme,Calliphoridae and Rhiniidae Recording Scheme,,,5c1a99f0-8e78-4d47-9ee6-89ed22ac5cd1,Insects,Blowflies,,
+study group,Chironomidae Study Group,,,,Insects,Chironomid flies,,
+recording scheme,Chloropidae Recording Scheme,,,,Insects,Chloropid flies,,
+recording scheme,Chrysomelidae Recording Scheme,,98f2e583-a557-46b5-98b9-05561f144966,,Insects,Leaf-beetles,,
+study group,Cladocera Interest Group,,233f1f36-3081-43d7-b987-3ad5d36fd165,,Invertebrates,Water fleas,,
+recording scheme,Clown Beetles Recording Scheme,,,,Insects,Clown Beetles,,
+recording scheme,Conchological Society of Great Britain and Ireland,,dccfcdcf-d272-45c8-85cb-e3dbf18b8a34,,Invertebrates,Non-marine molluscs,,
+recording scheme,"Conopidae, Lonchopteridae & Picture-winged Fly Recording Scheme",,,,Insects,"Conopid, lonchopterid & picture-winged flies",,
+recording scheme,Crambidae & Pyralidae Recording Scheme,,,,Insects,Grass & Pyralid moths,,
+recording scheme,Cranefly Recording Scheme,,ad9b45e8-19ae-443d-a452-246ee12b36e2,86ade71a-3894-4f17-bcde-f5894bc5e0f7,Insects,Craneflies,,
+recording scheme,Dermestidae Recording Scheme,,,,Insects,"Hide, larder and carpet beetles",,
+recording scheme,Dixidae and Thaumaleidae Recording Scheme,,,04f222a1-3d53-4740-80d3-40d3b7ccbe9e,Insects,Meniscus midges,,
+recording scheme,Elateroidea Recording Scheme,,,,Insects,Click beetles and allies,,
+recording scheme,Empidid and Dolichopodid Recording Scheme,,,,Insects,"Empid, Hybotid & Dolichopodid flies",,
+recording scheme,Flat-footed Fly Recording Scheme,,,,Insects,Flat-footed flies,,
+recording scheme,Freshwater Fish Recording Scheme,,b0d7bdb4-d7ba-47cb-95f1-2082558cae9e,4645a9cc-e357-4630-8bd2-696bf6475850,Vertebrates,Freshwater fish,,
+recording scheme,Freshwater Flatworm Recording Scheme,,,,Invertebrates,Freshwater flatworms,,
+recording scheme,Freshwater Leech Recording Scheme,,,,Invertebrates,Freshwater leeches,,
+recording scheme,Fungus Gnat Recording Scheme,,,,Insects,Fungus gnats,,
+recording scheme,Gelechiid Recording Scheme,,,,Insects,Gelechiid moths,,
+monitoring scheme,Goose and Swan Monitoring Programme,,,,Vertebrates,Birds,,
+recording scheme,Grasshoppers and Related Insects Recording Scheme,,d7fdac0a-fb87-46a4-91bc-633addb541a9,cbd94c94-02ae-4c40-b5b5-ec7221f0482b,Insects,Grasshoppers and allies,,
+recording scheme,Ground Beetle Recording Scheme,,,fb1ff97d-b030-4a37-9fd4-5c65f12db810,Insects,Ground beetles,,
+recording scheme,Harvestman Recording Scheme,,,0af8fdeb-6bbd-463e-ae5d-aa13790f896f,Invertebrates,Harvestmen,,
+recording scheme,Heleomyzid Recording Scheme,,,5e096c60-f909-4213-9cf3-05b1f2ad5a5e,Insects,Spiny-winged flies,,
+recording scheme,Hippoboscidae and Nycteribiidae Recording Scheme,,,6069bfe1-73bc-4602-a408-f723b56b813e,Insects,"Keds, flat-flies or louse-flies, and bat-flies",,
+recording scheme,Hoverfly Recording Scheme,,,a69c6cda-5dc0-4362-88ed-b39d90eb4d17,Insects,Hoverflies,,
+recording scheme,Hypogean Crustacea Recording Scheme,,b95deb4e-d94a-4310-a211-4d45c4ccdc86,,Invertebrates,Cave amphipods and other crustacea,,
+recording scheme,Incurvarioidea Recording Scheme,,,,Insects,Longhorn moths and allies,,
+recording scheme,Kelp Fly Recording Scheme,,,cc9ae2eb-b6e9-4a4e-80ec-13c21e49963f,Insects,Kelp flies,,
+recording scheme,Lacewings and Allies Recording Scheme,,,88159c93-b888-46df-9b97-a3f96c73b75f,Insects,"Lacewings, scorpion-flies, snake-flies and allies",,
+recording scheme,Leaf-mining Moth Recording Scheme,,,,Insects,Leaf-mining moths,,
+study group,Lesser Dung Fly (Sphaeroceridae) Study Group,,,,Insects,Lesser Dung Flies,,
+study group,Lonchaeidae Study Group,,,,Insects,Lance flies,,
+recording scheme,Mammal Society,,,e6d9a4a4-dbf0-4a3e-87c2-91b6af1f9771; 2d4e76d7-2283-43bb-8029-c6a414badfd8,Vertebrates,Mammals,,
+recording scheme,Marine Biological Association,,,000c7e0c-c7f4-4b18-8ab7-57ade1a89e30; 83072c26-af4e-44a7-b373-0567f623081d; 97d01261-0027-4e89-a0d2-4a7d700f5fdb,marine taxa,marine taxa,,
+recording scheme,Mayfly Recording Scheme,Collected together under Riverfly Recording Schemes,125b5016-8748-43a8-ae03-632345d3262a,,Insects,Mayflies,,
+recording scheme,Mosquitoes Recording Scheme,,,,Insects,Mosquitoes,,
+study group,Muscidae and Fanniidae Study Group,,,15f7a6a7-a684-42b1-a05f-4de243e389c4,Insects,House flies and allies,,
+recording scheme,National Agromyzidae Recording Scheme,,,,Insects,Leaf-miner flies,,
+monitoring scheme,National Amphibian and Reptile Monitoring Programme,,d4b5490a-3267-4e96-94b3-9b93ea167051,8bb6b7ef-553f-40a8-872b-c6a54ecf2f68,Vertebrates,Amphibians and reptiles,,
+monitoring scheme,National Bat Monitoring Programme,,a6cb65d4-c47c-434e-9d32-be0689b96d8e,,Vertebrates,Mammals,,
+recording scheme,National Earthworm Recording Scheme,,0b8171d0-6b32-4ccc-bf3d-bf34b56c36d3,,Invertebrates,Earthworms,,
+recording scheme,National Longhorn Beetle Recording Scheme,,00eeb78f-cfa5-452b-970c-cb4e8545f027,,Insects,Longhorn beetles,,
+recording scheme,National Moth Recording Scheme,,,a86201a4-fa20-44e5-ade2-68ea3563cfa8,Insects,Moths,,
+monitoring scheme,National Plant Monitoring Scheme,,edbf0897-6149-44c9-b06f-bf83d4fc4437,8b0588e2-6852-4553-951d-90c01eaaf90b,Plants,Flowering plants,,
+recording scheme,Oestridae Recording Scheme,,,,Insects,Warble-flies and bots,,
+recording scheme,Oil Beetle Recording Scheme,,707c54fc-b0d4-4082-9196-181cb9358aab,,Insects,Oil beetles,,
+recording scheme,Parasitic Wasps Recording Scheme,,,,Insects,Parasitic wasps,,
+study group,Pipunculidae Study Group,,,,Insects,Pipunculid flies,,
+recording scheme,Plume Moth Recording Scheme,,,,Insects,Plume moths,,
+recording scheme,Pseudoscorpion Recorders' Group,,cface13f-e41b-4f60-9b11-c7218951bcf8,,Invertebrates,Pseudoscorpions,,
+recording scheme,Psylloidea Recording Scheme,,,,Insects,Psyllids,,
+recording scheme,Rhinophoridae Recording Scheme,,,55496782-b8ea-4b4e-9215-abf93ac67f3a,Insects,Woodlouse Flies,,
+recording scheme,Sarcophagidae Recording Scheme,,,6d255bce-0129-42c7-bfee-467843015242,Insects,Flesh flies,,
+recording scheme,Sawfly Recording Scheme,,,b650365b-6ff5-403b-916a-f1c4a176bb45,Insects,Sawflies,,
+recording scheme,Scarabaeoidea Recording Scheme,,,,Insects,Dung beetles and chafers,,
+recording scheme,Scathophagid Recording Scheme,,,,Insects,Dung-flies and relatives,,
+recording scheme,Scirtidae Recording Scheme,,,,Insects,Scirtid beetles,,
+recording scheme,Sepsid Recording Scheme,,,5a87124d-d619-430f-9148-d1be7db73a31; febe3d7b-59a7-45c1-abbd-bd610e85823b,Insects,Sepsid flies,,
+recording scheme,Silphidae Recording Scheme,,43d63d86-81b1-4806-b2d7-0dfeb82393c6,,Insects,"Carrion, burying and sexton beetles & relatives",,
+recording scheme,Siphonaptera and Phthiraptera Recording Scheme,,f025ded8-0efe-478d-a4d5-f6ae9edc3a85,,Insects,Fleas and Lice,,
+recording scheme,Slime Mould Recording Scheme,,,,Myxomycetes,Slime moulds,,
+recording scheme,Small Acalypterate Families Recording Scheme,,,8f17c1c2-69a8-4490-9d82-466134b81369; c3bc38ef-c1f2-46db-86e7-b020604fd5f2,Insects,Small acalypterate families,,
+recording scheme,Snail-killing Flies Recording Scheme,,,0ff1dbf3-7e14-41ec-9394-3c5813fee491; 60202510-efd9-4f3c-95cc-56a950b2e033,Insects,Snail-killing flies,,
+recording scheme,Soldier Beetles and Allies Recording Scheme,,d0071a22-dbf0-4ac4-881c-088118c5b563,824c7e2e-d2fb-466f-bf1b-ee975f1f6956,Insects,"Soldier beetles, glow-worm and allies",,
+recording scheme,Soldierflies and Allies Recording Scheme,,293a2f8d-ab04-4765-83e9-b2426f439f9d,,Insects,"Soldierflies, horseflies, robberflies, snipeflies, stiletto-flies, bee-flies and allies",,
+recording scheme,Spider Recording Scheme,,,,Invertebrates,Spiders,,
+recording scheme,Springtail Recording Scheme,,,,Insects,Springtails,,
+recording scheme,Staphylinidae Recording Scheme,,,,Insects,Rove beetles,,
+recording scheme,Stenini Recording Scheme,,,,Insects,Camphor beetles,,
+recording scheme,Stilt and Stalk Fly Recording Scheme,,,926f5a1c-8995-498a-913b-fe0312e1071f; ,Insects,Stilt and stalk flies,,
+recording scheme,Stonefly Recording Scheme,Collected together under Riverfly Recording Schemes,125b5016-8748-43a8-ae03-632345d3262a,,Insects,Stoneflies,,
+recording scheme,Tachinid Recording Scheme,,69dda90b-42f0-47f9-8eae-ccb02cfba4ec,772d950d-2cf5-491e-bf31-b670e372b3fc; 27e416d9-ac57-48a6-ad78-55990f7af998,Insects,Tachinid flies,,
+recording scheme,Tenebrionoidea Recording Scheme,,,,Insects,Darkling beetles,,
+recording scheme,Tephritid Flies Recording Scheme,,,,Insects,Tephritid flies,,
+recording scheme,Terrestrial Flatworm Recording Scheme,,,,Invertebrates,Terrestrial flatworms,,
+recording scheme,Terrestrial Heteroptera Recording Scheme - Plant bugs and allied species,,bcecc656-f757-4637-83ce-c1f44f17c77d,,Insects,Plant bugs & allied species,,
+recording scheme,Terrestrial Heteroptera Recording Scheme - Shield bugs and allied species,,a86070d3-15cf-43df-b5a9-6949901963d3,,Insects,Shield bugs & allied species,,
+recording scheme,The Fungus Conservation Trust,,5a863641-618b-4821-9040-a86ff65c6b7c,,Fungi,Fungi,,
+recroding scheme,Tick Surveillance Scheme,,,,Invertebrates,Ticks,,
+monitoring scheme,UK Butterfly Monitoring Scheme,,179ccc1f-7315-4925-9725-69377ca8b6d4,,Insects,Butterflies,,
+recording scheme,UK Ladybird Survey,,,b4c0c858-f6f3-415f-aec1-f7e3534a8126; 68fa8801-0b3e-400e-afa6-5ad08e0f1e4c,Insects,Ladybirds,,
+monitoring scheme,UK Pollinator Monitoring Scheme,,62433b33-28b2-4f70-8b75-b183f54aabaa,,Insects,Pollinators,,
+recording scheme,Weevil and Bark Beetle Recording Scheme,,8b09e94e-a95e-417f-8695-53dd9ae7f4e1,,Insects,Weevils and Bark Beetles,,
+monitoring scheme,Wetland Birds Survey,,,,Vertebrates,Birds,,

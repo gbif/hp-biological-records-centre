@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /schemes
+permalink: /schemes_old
 description: Recording Schemes & Societies
 ---
 #### Acari Recording Scheme

@@ -4,16 +4,19 @@
 
 - text: Data
   menu: 
-  - text: Overview
+  - text: GBIF data
+  - text: GBIF Overview
     href: /data_overview/
-  - text: Occurrences
+  - text: GBIF Occurrences
     href: /occurrence/search
-  - text: Literature
-    href: /literature/search
-  - text: Non-GBIF data
-    href: /nongbif/
-  - text: Using the data
-    href: /usingdata/
+  - text: "---"
+  - text: About the Data
+  - text: Unstructured Data
+    href: /unstructured/
+  - text: Structured Data
+    href: /structured/
+  - text: Verification
+    href: /verification/
 - text: Schemes
   href: /schemes/
 - text: Resources
@@ -29,7 +32,9 @@
     href: https://nbnatlas.org/
   - text: Environmental Information Data Centre
     href: https://eidc.ac.uk/
-  - text: Botanical Society of Britain & Ireland
-    href: https://bsbi.org/recording/maps-data
-- text: News
-  href: /news/
+- text: Citations
+  menu:
+    - text: Citations of GBIF data
+      href: /literature/search
+    - text: How to Cite
+      href: /cite_guide/

@@ -4,13 +4,16 @@ permalink: /schemes
 description: Recording Schemes & Societies
 ---
 ## Recording Schemes & Surveys
-The following is a list of Recording Schemes and surveys in the UK:
+The following is a list of Recording Schemes, Societies and surveys in the UK:
 
 <div class="contact-grid">
   {% for scheme in site.data.schemes %}
     <div class="contact-card">
     <h4>{{scheme.name}}</h4>
     <p><i>{{scheme.type}}</i></p>
+    {% unless scheme.logo == null or scheme.logo == "" %}
+      <div class = "contact-logo"><img src= "{{ '/assets/images/scheme_logos/' | append: scheme.logo }}" alt = "{{ scheme.name |append: ' logo' }}" /></div>
+    {% endunless %}
     <p>{{scheme.description}}</p>
     <p><strong>Taxa:</strong> {{scheme.taxa}}</p>
     {% unless scheme.website == null or scheme.website == "" %}

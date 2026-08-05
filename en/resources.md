@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: documentation
 permalink: /resources
 description: Resources
+sideNavigation: sideNavigation.guides
+toc: true
 ---
 ## Apps
 The Biological Records Centre has collaborated with a number of recording schemes and mobile app developers to launch a range of smartphone apps. These apps provide identification resources and aim to make it easy to submit wildlife records. The sightings go to [iRecord](https://irecord.org.uk/), allowing recorders to see all their observations in one place.

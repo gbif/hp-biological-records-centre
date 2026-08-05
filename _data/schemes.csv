@@ -1,6 +1,6 @@
 type,name,description,gbif_prov,gbif_data,broad_taxa,taxa,logo,website
 recording scheme,Acari Recording Scheme,,,,Invertebrates,Mites,,
-society,Amphibian and Reptile Conservation,,d4b5490a-3267-4e96-94b3-9b93ea167051,,Vertebrates,Amphibians and reptiles,,
+society,Amphibian and Reptile Conservation,,d4b5490a-3267-4e96-94b3-9b93ea167051,,Vertebrates,Amphibians and reptiles,amph_rep_cons-logo.jpg,https://www.arc-trust.org/
 recording scheme,Amphibian and Reptile Groups of the UK,,3ce82624-d07f-4a56-88c8-a903321a90fc,,Vertebrates,Amphibians and reptiles,,https://www.arguk.org/
 recording scheme,Anthomyiidae Recording Scheme,,,cf0a605d-7e32-4482-9e45-1a83bfd8061a,Insects,Anthomyiid flies,,https://www.dipterists.org.uk/anthomyiid-scheme/home
 recording scheme,Aquatic Coleoptera Recording Scheme,Now overseen by the Aquatic Coleoptera Conservation Trust but historically was run by the Balfour-Browne Club,76e846b0-1332-411e-a4fc-4e2251bfeea5; 9cb12d76-b816-41ad-aaed-1f71aa344034,,Insects,Aquatic beetles,,https://www.latissimus.org/
@@ -107,7 +107,7 @@ recording scheme,Terrestrial Heteroptera Recording Scheme - Shield bugs and alli
 recording scheme,The Fungus Conservation Trust,,5a863641-618b-4821-9040-a86ff65c6b7c,,Fungi,Fungi,,
 recroding scheme,Tick Surveillance Scheme,,,,Invertebrates,Ticks,,
 monitoring scheme,UK Butterfly Monitoring Scheme,,179ccc1f-7315-4925-9725-69377ca8b6d4,,Insects,Butterflies,,
-recording scheme,UK Ladybird Survey,,,b4c0c858-f6f3-415f-aec1-f7e3534a8126; 68fa8801-0b3e-400e-afa6-5ad08e0f1e4c,Insects,Ladybirds,,
+recording scheme,UK Ladybird Survey,,,b4c0c858-f6f3-415f-aec1-f7e3534a8126; 68fa8801-0b3e-400e-afa6-5ad08e0f1e4c,Insects,Ladybirds,ukls-logo.png,https://coleoptera.org.uk/coccinellidae/home
 monitoring scheme,UK Pollinator Monitoring Scheme,,62433b33-28b2-4f70-8b75-b183f54aabaa,,Insects,Pollinators,,
 recording scheme,Weevil and Bark Beetle Recording Scheme,,8b09e94e-a95e-417f-8695-53dd9ae7f4e1,,Insects,Weevils and Bark Beetles,,
 monitoring scheme,Wetland Birds Survey,,,,Vertebrates,Birds,,

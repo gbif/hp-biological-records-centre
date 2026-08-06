@@ -29,31 +29,3 @@ Biological recording involves documenting where and when species are observed. T
 # Data Verification
 To ensure reliability, species occurrence records in the UK typically undergo a process of expert verification, where experienced taxonomists or expert local and regional recorders assess the accuracy of submitted species observation. Many schemes and societies apply structured validation rules, flagging unusual records for further review. Increasingly, automated tools are also used to support this process, helping to identify potential errors such as implausible coordinates or out-of-range observations. Platforms such as Record Cleaner provide additional support by standardising and screening datasets for common issues. Expert validation and automated cleaning helps maintain high data quality, minimizing false positive detection, to ensure that the data are robust and suitable for scientific and conservation use.
 
-# Citing Data
-
-To acknowledge the efforts that we provide some suggested options below for statements to include in acknowledgements and data availability statements on published work involved data that the BRC has helped to mobilize
-
-Recommended citation practices depend on the download routes: 
-
-* **GBIF** - we recommend citing the doi that is supplied with any dataset download from GBIF. See the [GBIF Citation Guidelines](https://www.gbif.org/citation-guidelines) for details
-
-* **NBN** - use the NBN recommendations given in the [Citation and attribution section of the NBN Guidance](https://docs.nbnatlas.org/cite-nbn-atlas-data/). 
-
-* **Direct from BRC** - Specific citaion information may be supplied with the data, but otherwise the following guidance is recommended:
-
-  [*organisation/scheme name*] ([*year*]). Data from [*recording survey name*]. Exported from [*data source*]] on [*Date retrieved*]
-
-  for example:
-
-  UK Laybird Record Scheme (2024). Data from the UK Ladybird recording scheme. Exported from BRC database on 21/04/2024.
- 
-
-* **Direct from schemes** - Specific citaion information may be supplied with the data, but otherwise following the guidance provided above for **Direct from BRC** is recommended
-
-* **Published datasets on data archiving platforms** (e.g. Plant Atlas 2020 hectad/dateclass data on Zenodo) - Cite the doi on the archiving platform.
-
-In addition to citing the dataset we recommend acknowledging the scheme. In cases where BRC has played a role in supporting the scheme with the collection, processing or distribution of the data we would appreciate if you could also thank BRC. For instance if data is collected or stored via iRecord ot if BRC provided support to the scheme (e.g. web hosting) 
-
-We thank the [*insert scheme name*] for organizing and verifying data collection.
-
-We also thank the UKCEH BRC for the assistance and support maintaining infrastructure that supports data collection (iRecord) and storage (indicia). 

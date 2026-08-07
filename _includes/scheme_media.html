@@ -1,12 +1,13 @@
 {% assign groups = site.data.schemes | group_by: "broad_taxa" | sort: "name" %}
 {% for gp in groups %}
-  <h2 id = "{{gp.name}}">{{gp.name}}</h2>
+  
+  <h2 id = "{{gp.name}}">{{gp.name | split: ". " | slice: 1}}</h2>
   {% assign schemes = gp.items | sort: "name" %}
   {% for scheme in schemes %}
   <div class="box">
-    <h3 id = "{{scheme.name}}">{{scheme.name}}</h3>
     <article class="media">
       <div class="media-content">
+        <h3 class="title is-3" id = "{{scheme.name}}">{{scheme.name}}</h3>
         <p class="subtitle is-6">{{scheme.type}}</p>
         <p>{{scheme.description}}</p>
         <p><strong>Taxa:</strong> {{scheme.taxa}}</p>
@@ -31,8 +32,39 @@
         {% endunless %}
         <br/>
         {% unless scheme.gbif_prov == null or scheme.gbif_prov == "" %}
-        <p><span data-ajax-url="{{'https://api.gbif.org/v1/occurrence/search?publishing_org=' | append: scheme.gbif_prov | append: '&limit=0'}}"></span> Ocurrences</p>
+          <p>GBIF data</p>
+          <p>
+            <div class="button is-primary">
+              <strong>
+              <span data-ajax-url="{{'https://api.gbif.org/v1/occurrence/search?publishing_org=' | append: scheme.gbif_prov | append: '&limit=0'}}">
+              </span> ocurrences
+              </strong>
+            </div>
+          </p>
         {% endunless %}
+          
+
+        <nav class="level-right">
+          <div class = "level-item">
+            <a href="#{{gp.name}}" class="icon-text">
+              <span class="icon">
+                <i class="fas fa-angle-up"></i>
+              </span>
+              <span>To Section Heading</span>
+            </a>
+          </div>
+
+          <div class="level-item">
+          <a href="#" class="icon-text">
+            <span class="icon">
+              <i class="fas fa-angle-double-up"></i>
+            </span>
+            <span>To top</span>
+          </a>
+          </div>
+        </nav>
+        
+
       </div>
       <figure class="media-right">
         <div class = "image">
@@ -40,7 +72,7 @@
             <img 
               src= "{{ '/assets/images/scheme_logos/' | append: scheme.logo }}" 
               alt = "{{ scheme.name |append: ' logo' }}"
-              style = "width: 200px"
+              style = "max-width: 200px; max-height: 130px; vertical-align: text-top;"
             />
           {% endunless %}
         </div>
@@ -50,4 +82,6 @@
   {% endfor %}
 {% endfor %}
 
-
+<button id="backToTop" class="button is-primary is-rounded is-hidden" style="position: fixed; bottom: 20px; right: 20px; z-index: 99;">
+  <span>Top</span>
+</button>

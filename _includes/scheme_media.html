@@ -4,12 +4,16 @@
   <h2 id = "{{gp.name}}">{{gp.name | split: ". " | slice: 1}}</h2>
   {% assign schemes = gp.items | sort: "name" %}
   {% for scheme in schemes %}
-  <div class="box">
+  <div class="box" style="background-color: #F5F7F7;">
     <article class="media">
       <div class="media-content">
+
+        <!--Heading of card-->
         <h3 class="title is-3" id = "{{scheme.name}}">{{scheme.name}}</h3>
         <p class="subtitle is-6">{{scheme.type}}</p>
-        <p>{{scheme.description}}</p>
+        <p class="is-size-6">{{scheme.description}}</p>
+
+        <!--Body of card-->
         <p><strong>Taxa:</strong> {{scheme.taxa}}</p>
         {% unless scheme.website == null or scheme.website == "" %}
           <p><strong>Website: </strong><a href = "{{scheme.website}}">{{scheme.website}}</a></p>
@@ -25,25 +29,64 @@
         {% endunless %}
         {% unless scheme.gbif_data == null or scheme.gbif_data == "" %}
           {% assign ds = scheme.gbif_data | split: "; " %}
-          <strong>GBIF Datasets</strong>
+          <strong>Additional GBIF Datasets</strong>
           {% for id in ds %}
             <p><a href="{{'https://www.gbif.org/dataset/' | append: id}}">{{id}}</a></p>
           {% endfor %}
         {% endunless %}
         <br/>
-        {% unless scheme.gbif_prov == null or scheme.gbif_prov == "" %}
-          <p><strong>GBIF data</strong></p>
-          <p>
-            <div class="button is-primary">
-              <strong>
-              <span data-ajax-url="{{'https://api.gbif.org/v1/occurrence/search?publishing_org=' | append: scheme.gbif_prov | append: '&limit=0'}}">
-              </span> ocurrences
-              </strong>
-            </div>
-          </p>
-        {% endunless %}
-          
 
+        <!--Attempt to build query to combined counts for data provider(s) and additional dataset(s)-->
+        {% assign pubs_str =  pubs | join: '", "'  | append: '"' | prepend: '"'  %}
+        {% if scheme.gbif_prov != null %}
+            {% assign pub_qry_txt = '{ type: in, key: "publishingOrg", values: [ph_pub_id] }' | replace: "ph_pub_id", pubs_str %}
+        {% else %}
+            {% assign pub_qry_txt = '' %}
+        {% endif %}
+
+        {% assign ds_str =  ds | join: '", "'  | append: '"' | prepend: '"'  %}
+        {% if scheme.gbif_data != null %}
+          {% assign ds_qry_txt = '{ type: in, key: "datasetKey", values: [ph_ds_id] }' | replace: "ph_ds_id", ds_str %}
+        {% else %}
+          {% assign ds_qry_txt = '' %}
+        {% endif %}
+
+        {% capture qry_str %}
+query {
+  occurrenceSearch(
+    predicate: {
+      type: or
+      predicates: [
+        {{ pub_qry_txt }}
+        {{ ds_qry_txt }}
+      ]
+    }
+    size: 10
+  ) {
+    documents {
+      total
+    }
+  }
+}
+        {% endcapture %}
+
+        {% assign url_req = qry_str | url_encode %}
+        {% assign qry_url = 'https://graphql.gbif.org/graphql?query=' | append: url_req %}
+        
+        
+        <!--Add the button showing the total number of occurrences-->
+        {% unless scheme.gbif_prov == null and scheme.gbif_data == null %}
+        <p><strong>GBIF data</strong></p>
+        <p>
+          <div class="button non-interactive is-primary">
+            <strong>
+            <span data-ajax-path="data.occurrenceSearch.documents.total" data-ajax-url="{{qry_url}}">-1</span> ocurrences
+            </strong>
+          </div>
+        </p>
+        {% endunless %}
+
+        <!--Footer-->
         <nav class="level-right">
           <div class = "level-item">
             <a href="#{{gp.name}}" class="icon-text">

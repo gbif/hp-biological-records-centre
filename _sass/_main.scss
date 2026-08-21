@@ -36,3 +36,9 @@
   transform: translateY(-4px);
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
+
+/* make a non-interactive button that is still coloured like a button */
+.button.non-interactive {
+    pointer-events: none;  /* Imitate the behavior of is-static class */
+    box-shadow: none;  /* Optional, it might be useful in cases where the button is in a container with a box-shadow */
+}

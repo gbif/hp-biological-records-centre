@@ -21,20 +21,25 @@
         {% assign gbif_prov = scheme.gbif_prov | strip_newlines %}
         {% unless gbif_prov == null or gbif_prov == "" %}
           {% assign pubs = scheme.gbif_prov | split: "; " %}
+            <p>
             <strong>GBIF Publisher Page(s)</strong>
             {% for id in pubs %}
-              <p><a href="{{'https://www.gbif.org/publisher/' | append: id}}">{{id}}</a></p>
+              <br /><a href="{{'https://www.gbif.org/publisher/' | append: id}}">{{id}}</a>
             {% endfor %}
+            <br />
+            </p>
           <!--<p><a href="{{'https://www.gbif.org/publisher/' | append: scheme.gbif_prov}}">GBIF Publisher Page</a></p>-->
         {% endunless %}
         {% unless scheme.gbif_data == null or scheme.gbif_data == "" %}
           {% assign ds = scheme.gbif_data | split: "; " %}
-          <strong>Additional GBIF Datasets</strong>
+          <p>
+          <strong>Additional GBIF Dataset(s)</strong>
           {% for id in ds %}
-            <p><a href="{{'https://www.gbif.org/dataset/' | append: id}}">{{id}}</a></p>
+            <br /><a href="{{'https://www.gbif.org/dataset/' | append: id}}">{{id}}</a>
           {% endfor %}
+          </p>
         {% endunless %}
-        <br/>
+        
 
         <!--Attempt to build query to combined counts for data provider(s) and additional dataset(s)-->
         {% assign pubs_str =  pubs | join: '", "'  | append: '"' | prepend: '"'  %}
@@ -76,7 +81,7 @@ query {
         
         <!--Add the button showing the total number of occurrences-->
         {% unless scheme.gbif_prov == null and scheme.gbif_data == null %}
-        <p><strong>GBIF data</strong></p>
+        <p><strong>Total GBIF data</strong></p>
         <p>
           <div class="button non-interactive is-primary">
             <strong>

@@ -6,11 +6,20 @@
   {% for scheme in schemes %}
   <div class="box" style="background-color: #F5F7F7;">
     <article class="media">
-      <div class="media-content">
+      <div class="media-content" style="min-height: 200px;">
 
         <!--Heading of card-->
         <h3 class="title is-3" id = "{{scheme.name}}">{{scheme.name}}</h3>
         <p class="subtitle is-6">{{scheme.type}}</p>
+        <figure class="image is-pulled-right m1-4 mt-2 mb-2">
+            {% unless scheme.logo == null or scheme.logo == "" %}
+            <img 
+              src= "{{ '/assets/images/scheme_logos/' | append: scheme.logo }}" 
+              alt = "{{ scheme.name |append: ' logo' }}"
+              style = "max-width: 200px; max-height: 130px; vertical-align: text-top;"
+            />
+          {% endunless %}
+        </figure>
         <p class="is-size-6">{{scheme.description}}</p>
 
         <!--Body of card-->
@@ -85,47 +94,39 @@ query {
         <p>
           <div class="button non-interactive is-primary">
             <strong>
+            <span class="icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
             <span data-ajax-path="data.occurrenceSearch.documents.total" data-ajax-url="{{qry_url}}">-1</span> ocurrences
             </strong>
           </div>
         </p>
         {% endunless %}
 
-        <!--Footer-->
-        <nav class="level-right">
-          <div class = "level-item">
-            <a href="#{{gp.name}}" class="icon-text">
-              <span class="icon">
-                <i class="fas fa-angle-up"></i>
-              </span>
-              <span>To Section Heading</span>
-            </a>
-          </div>
-
-          <div class="level-item">
-          <a href="#" class="icon-text">
-            <span class="icon">
-              <i class="fas fa-angle-double-up"></i>
-            </span>
-            <span>To top</span>
-          </a>
-          </div>
-        </nav>
-        
-
       </div>
-      <figure class="media-right">
-        <div class = "image">
-          {% unless scheme.logo == null or scheme.logo == "" %}
-            <img 
-              src= "{{ '/assets/images/scheme_logos/' | append: scheme.logo }}" 
-              alt = "{{ scheme.name |append: ' logo' }}"
-              style = "max-width: 200px; max-height: 130px; vertical-align: text-top;"
-            />
-          {% endunless %}
-        </div>
-      </figure>
     </article>
+    
+    <!--Footer-->
+    <nav class="level-right">
+      <div class = "level-item">
+        <a href="#{{gp.name}}" class="icon-text">
+          <span class="icon">
+            <i class="fas fa-angle-up"></i>
+          </span>
+          <span>To Section Heading</span>
+        </a>
+      </div>
+
+      <div class="level-item">
+      <a href="#" class="icon-text">
+        <span class="icon">
+          <i class="fas fa-angle-double-up"></i>
+        </span>
+        <span>To top</span>
+      </a>
+      </div>
+    </nav>
+        
   </div>
   {% endfor %}
 {% endfor %}

@@ -14,7 +14,7 @@ columns:
 
   - name: Code
     description: | # Can be Markdown
-      The code for this hosted portal is open source.
+      The code for this GBIF hosted portal is open source.
       The code is available on [GitHub](https://github.com/gbif/hp-biological-records-centre).
   
   - name: Contact

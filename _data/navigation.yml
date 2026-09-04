@@ -21,6 +21,12 @@
   href: /schemes/
 - text: Resources
   href: /resources/
+- text: Citations
+  menu:
+    - text: Citations of GBIF data
+      href: /literature/search
+    - text: How to Cite
+      href: /cite_guide/
 - text: Links
   menu: # Dropdown menu (one level deep only)
   - text: Biological Records Centre
@@ -32,9 +38,5 @@
     href: https://nbnatlas.org/
   - text: Environmental Information Data Centre
     href: https://eidc.ac.uk/
-- text: Citations
-  menu:
-    - text: Citations of GBIF data
-      href: /literature/search
-    - text: How to Cite
-      href: /cite_guide/
+  - text: Global Biodiversity Information Facility
+    href: https://www.gbif.org/

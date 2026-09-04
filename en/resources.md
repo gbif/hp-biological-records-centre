@@ -8,7 +8,7 @@ toc: true
 ## Apps
 The Biological Records Centre has collaborated with a number of recording schemes and mobile app developers to launch a range of smartphone apps. These apps provide identification resources and aim to make it easy to submit wildlife records. The sightings go to [iRecord](https://irecord.org.uk/), allowing recorders to see all their observations in one place.
 
-A list of apps is available on the [BRC websites](https://www.brc.ac.uk/apps)
+A list of apps is available on the [BRC website](https://www.brc.ac.uk/apps).
 
 ## Software & Tools
 
@@ -72,7 +72,7 @@ The [GB Non-native Species Information Portal (NNSIP)](https://www.nonnativespec
 ### BRYOATT
 BRYOATT is a dataset of attributes of British and Irish Mosses, Liverworts and Hornworts. BRYOATT was published in 2007 by the Centre for Ecology and Hydrology (CEH) and provided for all British and Irish species a codified set of attributes for use in ecological analyses. These included information on native status, size, life form, life history, altitudinal and geographical range and habitat of 1057 British and Irish bryophyte species and a further 134 aggregates and infraspecific taxa. Much of the information was newly compiled, or generated afresh for this publication. Ellenberg values for Light, Moisture, Reaction, Nitrogen and Salt tolerance were provided for all taxa. A new classification of the life forms was proposed and applied to all taxa. Their substrates and EUNIS habitats in Britain and Ireland were also tabulated. The dataset was published in 2007 as a booklet (Hill MO, Preston CD, Bosanquet SDS, Roy DB, 2007, BRYOATT Attributes of British and Irish Mosses, Liverworts and Hornworts), a companion to PLANTATT. 
 
-An Excel spreadsheet of the attributes, and a PDF explaining the background and nomenclature are available to download on the [BRC websites](https://www.brc.ac.uk/biblio/bryoatt-attributes-british-and-irish-mosses-liverworts-and-hornworts-spreadsheet)
+An Excel spreadsheet of the attributes, and a PDF explaining the background and nomenclature are available to download on the [BRC website](https://www.brc.ac.uk/biblio/bryoatt-attributes-british-and-irish-mosses-liverworts-and-hornworts-spreadsheet).
 
 ### PLANTATT
 PLANTATT is a datasets of attributes of British and Irish Plants. The dataset was compiled and published in 2004, and last updated in November 2008. 
@@ -80,7 +80,10 @@ PLANTATT is a datasets of attributes of British and Irish Plants. The dataset wa
 A download that includes an Excel spreadsheet of the attributes, and a PDF explaining the background and nomenclature is avaiable from the [BRC website](https://www.brc.ac.uk/biblio/plantatt-attributes-british-and-irish-plants-spreadsheet)
 
 
+### Other species trait resources
+A number of other species trait resources are listed on the species traits data & resources page of the [BRC website](https://www.brc.ac.uk/theme/species-traits-links-data-and-resources).
+
 ## Atlases
 Promoting and publishing atlases is an integral part of BRC’s work.  Atlases continue to be important for biological recording while also providing a basis for periodic review of the distribution of species within a taxonomic group. Atlases and the currated datasets used to produce them are often used for research.
 
-For more information on published Atlases see the [BRC website](https://www.brc.ac.uk/theme/atlases)
+For more information on published Atlases see the [BRC website](https://www.brc.ac.uk/theme/atlases).

@@ -59,7 +59,7 @@ The R script is available to download from the [BRC website](https://www.brc.ac.
 ### Trait data for Butterflies and macromoths of Great Britain and Ireland
 a comprehensive traits database for the butterflies and macro-moths of Great Britain and Ireland. The database covers 968 species in 21 families. Ecological traits fall into four main categories: life cycle ecology and phenology, host plant specificity and characteristics, breeding habitat, and morphological characteristics. The database also contains data regarding species distribution, conservation status, and temporal trends for abundance and occupancy.
 
-The dataset is available to download from the [UKcEH EIDC](https://catalogue.ceh.ac.uk/documents/dbc7cc17-cbbd-49dd-bab4-8e8855768d66)
+The dataset is available to download from the [UKCEH EIDC](https://catalogue.ceh.ac.uk/documents/dbc7cc17-cbbd-49dd-bab4-8e8855768d66)
 
 ### Database of Insects and their Food Plants (DBIF)
 This database is primarily a collation of published interactions between Great Britain's invertebrate herbivores (insects and mites) and their host plants. There are also some interactions for the invertebrates closely associated with herbivores, such as predators, parasitoids, cleptoparasites and mutualists. DBIF contains about 47,000 interactions for roughly 9,300 invertebrate taxa (species, sub-species and forms) and 5,700 plant taxa (species, genera and broader groupings).

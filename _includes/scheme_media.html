@@ -29,7 +29,7 @@
           <br /><a href = "{{scheme.website}}">{{scheme.website}}</a></p>
         {% endunless %}
         {% assign gbif_prov = scheme.gbif_prov | strip_newlines %}
-        {% if gbif_prov != null or gbif_data != null %}
+        {% if scheme.gbif_prov != null or scheme.gbif_data != null%}
           <p>
           <strong>Links to GBIF page(s):</strong>
         {% endif %}
@@ -45,7 +45,7 @@
             <br /><a href="{{'https://www.gbif.org/dataset/' | append: id}}">{{id}}</a>
           {% endfor %}
         {% endunless %}
-        {% if gbif_prov != null or gbif_data != null %}
+        {% if scheme.gbif_prov != null or scheme.gbif_data != null%}
           </p>
         {% endif %}
 

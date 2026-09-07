@@ -25,30 +25,29 @@
         <!--Body of card-->
         <p><strong>Taxa:</strong> {{scheme.taxa}}</p>
         {% unless scheme.website == null or scheme.website == "" %}
-          <p><strong>Website: </strong><a href = "{{scheme.website}}">{{scheme.website}}</a></p>
+          <p><strong>Website</strong>
+          <br /><a href = "{{scheme.website}}">{{scheme.website}}</a></p>
         {% endunless %}
         {% assign gbif_prov = scheme.gbif_prov | strip_newlines %}
+        {% if gbif_prov != null or gbif_data != null %}
+          <p>
+          <strong>Links to GBIF page(s):</strong>
+        {% endif %}
         {% unless gbif_prov == null or gbif_prov == "" %}
           {% assign pubs = scheme.gbif_prov | split: "; " %}
-            <p>
-            <strong>GBIF Publisher Page(s)</strong>
             {% for id in pubs %}
               <br /><a href="{{'https://www.gbif.org/publisher/' | append: id}}">{{id}}</a>
             {% endfor %}
-            <br />
-            </p>
-          <!--<p><a href="{{'https://www.gbif.org/publisher/' | append: scheme.gbif_prov}}">GBIF Publisher Page</a></p>-->
         {% endunless %}
         {% unless scheme.gbif_data == null or scheme.gbif_data == "" %}
           {% assign ds = scheme.gbif_data | split: "; " %}
-          <p>
-          <strong>Additional GBIF Dataset(s)</strong>
           {% for id in ds %}
             <br /><a href="{{'https://www.gbif.org/dataset/' | append: id}}">{{id}}</a>
           {% endfor %}
-          </p>
         {% endunless %}
-        
+        {% if gbif_prov != null or gbif_data != null %}
+          </p>
+        {% endif %}
 
         <!--Attempt to build query to combined counts for data provider(s) and additional dataset(s)-->
         {% assign pubs_str =  pubs | join: '", "'  | append: '"' | prepend: '"'  %}

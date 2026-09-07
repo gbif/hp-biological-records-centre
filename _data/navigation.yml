@@ -4,13 +4,11 @@
 
 - text: Data
   menu: 
-  - text: GBIF data
   - text: GBIF Overview
     href: /data_overview/
   - text: GBIF Occurrences
     href: /occurrence/search
   - text: "---"
-  - text: About the Data
   - text: Unstructured Data
     href: /unstructured/
   - text: Structured Data

@@ -39,10 +39,8 @@ Finally, to recognisze the role of the BRC:
 
 > We also thank the UKCEH Biological Records Centre for maintaining infrastructure that supports data collection and storage.  
 
-We note that this last statement is not always appropriate since some scheme data are held outside these systems (e.g., data from the BSBI or BLS). Please check the metadata associated with the data or to determine whether BRC has pprovided support to the scheme. 
+We note that this last statement is not always appropriate since some scheme data are held outside these systems (e.g., data from the BSBI or BLS). Please check the metadata associated with the data or to determine whether BRC is mentioned as providing support to the scheme to determine whether BRC should also be acknowledged. 
  
-### List of scheme names
+### Schemes 
 
-{% for scheme in site.data.schemes %}
-* {{scheme.name}}
-{% endfor %}
+See the [Schemes page](/schemes/) for a list of UK recording schemes & societies.

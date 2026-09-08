@@ -8,7 +8,7 @@ stats:
       #background: assets/icons/occ-bio.png
       href: /occurrence/search
     - title: <span id="publisherCount" class="ajax-is-loading">Loading</span>
-      description: Publishers
+      description: Organisations
     - title: <span id="datasetCount" class="ajax-is-loading">Loading</span>
       description: Datasets
       #background: assets/icons/eco-data.png
@@ -29,7 +29,7 @@ statsCite:
       # See script.js > includes :folder
     - title: <span id="nCitation" class="ajax-is-loading">Loading</span>
       description: Citations
-    - title: <span id="nPublisher" class="ajax-is-loading">Loading</span>
+    - title: <span id="nSource" class="ajax-is-loading">Loading</span>
       description: Journals
     - title: <span id="peerCount" class="ajax-is-loading">Loading</span>
       description: Peer Reviewed

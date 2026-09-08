@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
       cardinality {
-        publisher
+        source
       }
     }
   }`;
@@ -118,8 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
       var openCount = jsonResponse.data.literatureSearch.facet.openAccess.filter(facet => facet.key === true)[0].count;
       updateElementText('#openCount', openCount);
 
-      var nPublisher = jsonResponse.data.literatureSearch.cardinality.publisher;
-      updateElementText('#nPublisher', nPublisher);
+      var nSource = jsonResponse.data.literatureSearch.cardinality.source;
+      updateElementText('#nSource', nSource);
  
     })
     .catch(function (err) {

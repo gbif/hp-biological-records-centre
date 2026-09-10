@@ -27,15 +27,15 @@ Our recommended citation practice depends on the download route:
 
 ## For acknowledgements
 
-First, to recognisze the efforts of the schemes: 
+First, to recognise the efforts of the schemes: 
 
-> We thank the [insert scheme name] for organiszing, verifying and sharing the data. 
+> We thank the [insert scheme name] for organising, verifying and sharing the data. 
 
-Second, to recognisze the efforts of the volunteer data collectors: 
+Second, to recognise the efforts of the volunteer data collectors: 
 
 > We thank the volunteer recorders for the efforts in collecting the data. 
 
-Finally, to recognisze the role of the BRC: 
+Finally, to recognise the role of the BRC: 
 
 > We also thank the UKCEH Biological Records Centre for maintaining infrastructure that supports data collection and storage.  
 

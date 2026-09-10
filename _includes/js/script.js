@@ -1,4 +1,4 @@
-// adapted from javascript functions useed in the ASEAN Centre for Biodiversity Hosted Portal
+// adapted from javascript functions used in the ASEAN Centre for Biodiversity Hosted Portal
 // https://github.com/gbif/hp-asean
 
 function updateElementText(selector, value) {

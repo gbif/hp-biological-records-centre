@@ -3,38 +3,44 @@ stats:
   klass: contentTypesStat # here we add a custom class to the block, so that we can style it differently. see the sass file _sass/_example.scss
   features:
       # See script.js > includes :folder
+      # icons from font awesome free collection https://fontawesome.com/
     - title: <span id="occurrenceCount" class="ajax-is-loading">Loading</span>
       description: Occurrences
-      #background: assets/icons/occ-bio.png
+      background: assets/images/icons/location-dot-solid.png
       href: /occurrence/search
     - title: <span id="publisherCount" class="ajax-is-loading">Loading</span>
       description: Organisations
+      background: assets/images/icons/building-columns-solid.png
     - title: <span id="datasetCount" class="ajax-is-loading">Loading</span>
       description: Datasets
-      #background: assets/icons/eco-data.png
+      background: assets/images/icons/database-solid.png
       href: /occurrence/search/?view=DATASETS
     - title: <span id="speciesCount" class="ajax-is-loading">Loading</span>
       description: Species
-      #background: assets/icons/asean-bio.png
+      background: assets/images/icons/spider-solid.png
     #- title: <span id="familyCount" class="ajax-is-loading">Loading</span>
     #  description: Families
     - title: <span id="imageCount" class="ajax-is-loading">Loading</span>
       description: Occurrences with photos
-      #background: assets/icons/plant-bio.png
+      background: assets/images/icons/camera-solid.png
       href: /occurrence/search/?view=GALLERY
 
 statsCite:
-  klass: contentTypesStat # here we add a custom class to the block, so that we can style it differently. see the sass file _sass/_example.scss
+  #klass: contentTypesStat # here we add a custom class to the block, so that we can style it differently. see the sass file _sass/_example.scss
   features:
       # See script.js > includes :folder
     - title: <span id="nCitation" class="ajax-is-loading">Loading</span>
       description: Citations
+      background: assets/images/icons/pen-to-square-solid.png
     - title: <span id="nSource" class="ajax-is-loading">Loading</span>
       description: Journals
+      background: assets/images/icons/book-open-solid.png
     - title: <span id="peerCount" class="ajax-is-loading">Loading</span>
       description: Peer Reviewed
+      background: assets/images/icons/user-pen-solid.png
     - title: <span id="openCount" class="ajax-is-loading">Loading</span>
       description: Open Access
+      background: assets/images/icons/lock-open-solid.png
 
 
 

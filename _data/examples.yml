@@ -29,6 +29,7 @@ statsCite:
   #klass: contentTypesStat # here we add a custom class to the block, so that we can style it differently. see the sass file _sass/_example.scss
   features:
       # See script.js > includes :folder
+      # icons from font awesome free collection https://fontawesome.com/
     - title: <span id="nCitation" class="ajax-is-loading">Loading</span>
       description: Citations
       background: assets/images/icons/pen-to-square-solid.png

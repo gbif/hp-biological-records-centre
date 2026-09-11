@@ -22,9 +22,9 @@
 title: Biological Records Centre # the title of your site should go here
 # email: your-email@example.com
 description: >- # this means to ignore newlines (until baseurl:)
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is the GBIF Hosted Portal for the Biological Records Centre. Here you’ll find 
+  occurrence records & datasets from a range data providers that the BRC has worked 
+  with or assisted to collect & process data and to make this data available via GBIF.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://biological-records-centre.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
 

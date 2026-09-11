@@ -33,15 +33,18 @@ statsCite:
     - title: <span id="nCitation" class="ajax-is-loading">Loading</span>
       description: Citations
       background: assets/images/icons/pen-to-square-solid.png
+      href: /literature/search
     - title: <span id="nSource" class="ajax-is-loading">Loading</span>
       description: Journals
       background: assets/images/icons/book-open-solid.png
     - title: <span id="peerCount" class="ajax-is-loading">Loading</span>
       description: Peer Reviewed
       background: assets/images/icons/user-pen-solid.png
+      href: /literature/search?peerReview=true
     - title: <span id="openCount" class="ajax-is-loading">Loading</span>
       description: Open Access
       background: assets/images/icons/lock-open-solid.png
+      href: /literature/search?openAccess=true
 
 
 

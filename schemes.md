@@ -6,6 +6,6 @@ sideNavigation: sideNavigation.guides
 toc: true
 ---
 # Recording Schemes & Surveys
-The following is a list of Nataional Recording or Monitoring Schemes in the UK:
+The following is a list of National Recording or Monitoring Schemes in the UK:
 
 {% include scheme_media.html %}

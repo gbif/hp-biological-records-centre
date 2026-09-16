@@ -20,7 +20,7 @@ Contains computer vision or image recognition species identification support. Al
 [Indicia](https://indicia.org.uk/home) provides a solution for developing online biological recording. Indicia is not an off the shelf solution for online recording. Rather, it is a toolkit that simplifies the development by providing ready-made components required to build online recording websites. Indicia provides a set of services, tools and examples that can be added to almost any website to provide rich online recording functionality. Indicia supports wildlife observation recording forms that are as simple or advanced as you need, allow photo upload, reporting, mapping and verification of the records.
 
 ### occAssess
-An R package that enables straightforward screening of species occurrence data for potential biases. The package contains a number Af discrete functions, each of which returns a measure of the potential for bias in one or more of the taxonomic, temporal, spatial, and environmental dimensions.
+An R package that enables straightforward screening of species occurrence data for potential biases. The package contains a number of discrete functions, each of which returns a measure of the potential for bias in one or more of the taxonomic, temporal, spatial, and environmental dimensions.
 
 The package is available via [github](https://github.com/robboyd/occAssess).
 
@@ -56,8 +56,19 @@ The R script is available to download from the [BRC website](https://www.brc.ac.
 
 ## Reference datasets
 
+### Plant Atlas 2020 dataset collection
+A collection of datasets containing key outputs and results from the [2020 Plant Atlas](https://plantatlas2020.org/). The collection includes datasets covering a wide range of outputs, including tetrad and hecatd distribution data, species distribution trends, species statuses, phenology, country level summaries.
+
+The collection of datasets are available via [Zenodo](https://zenodo.org/communities/plantatlas2020/records?q=&l=list&p=1&s=10&sort=newest)
+
+### Plant indicator species for JNCC Common Standards habitat monitoring, UK
+A dataset containing lists of plant indicator species extracted from the JNCC Common Standards habitat monitoring guidance for the UK. The Common Standards Monitoring (CSM) approach was developed in order to standardise the monitoring of designated nature conservation sites. As well as extracting (and sometimes interpreting) the plant species noted in the CSM guidance documents, the dataset provides links to CSM habitats, National Vegetation Classification communities, [National Plant Monitoring Scheme](https://www.npms.org.uk) indicator species, and provides current taxonomic names in a lookup table.
+
+The dataset is available to download from the [UKCEH EIDC](https://catalogue.ceh.ac.uk/documents/2c433c5b-8d15-49a7-aae7-b1f027d17e0e)
+
+
 ### Trait data for Butterflies and macromoths of Great Britain and Ireland
-a comprehensive traits database for the butterflies and macro-moths of Great Britain and Ireland. The database covers 968 species in 21 families. Ecological traits fall into four main categories: life cycle ecology and phenology, host plant specificity and characteristics, breeding habitat, and morphological characteristics. The database also contains data regarding species distribution, conservation status, and temporal trends for abundance and occupancy.
+A comprehensive traits database for the butterflies and macro-moths of Great Britain and Ireland. The database covers 968 species in 21 families. Ecological traits fall into four main categories: life cycle ecology and phenology, host plant specificity and characteristics, breeding habitat, and morphological characteristics. The database also contains data regarding species distribution, conservation status, and temporal trends for abundance and occupancy.
 
 The dataset is available to download from the [UKCEH EIDC](https://catalogue.ceh.ac.uk/documents/dbc7cc17-cbbd-49dd-bab4-8e8855768d66)
 

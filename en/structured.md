@@ -26,4 +26,6 @@ UK PoMS is a partnership funded jointly by the [UK Centre for Ecology & Hydrolog
 The UK Pollinator Monitoring Scheme data are available to download from the [UKCEH Environmental Information Data Centre (EIDC)](https://catalogue.ceh.ac.uk/documents/ac0337e7-58b6-49cd-ae4b-9c711bfd16a6).
 
 ### BeeWalk Survey Scheme
-BeeWalk is a national recording scheme run by the [Bumblebee Conservation Trust](https://www.bumblebeeconservation.org/) to collect data to monitor the abundance of bumblebees on transects across Britain.  This data collection would be impossible without volunteer BeeWalkers, who identify and count the bumblebees they see on a monthly walk (a fixed route of around 1 to 2 km - you choose where it goes) from March to October. 
+BeeWalk is a national recording scheme run by the [Bumblebee Conservation Trust](https://www.bumblebeeconservation.org/) to collect data to monitor the abundance of bumblebees on transects across Britain.  The data collection would be impossible without volunteer BeeWalkers, who identify and count the bumblebees they see on a monthly walk (a fixed route of around 1 to 2 km, determined by the volunteer) from March to October.
+
+Beewalk data is available via [GBIF](https://www.gbif.org/dataset/80df9ab6-fb28-422c-8b86-e92cf9bfdbf7) and or the [NBN Atlas](https://registry.nbnatlas.org/public/show/dr1263).

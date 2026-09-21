@@ -4,7 +4,7 @@ permalink: /structured
 description: Structured Data
 ---
 ## Structured Data
-Some taxa are monitored by structured monitoring schemes that have a unified sampling protocol. These structured surveys may often have a spatial design that specifies targeted or random sampling locations. In the UK, these schemes include
+Some taxa are monitored by structured monitoring schemes that have a unified sampling protocol. These structured surveys may often have a spatial design that specifies targeted or random sampling locations. In the UK, these schemes include:
 
 ### UK Butterfly Monitoring Scheme (UKBMS)
 The [United Kingdom Butterfly Monitoring Scheme (UKBMS)](https://ukbms.org/) is one of the longest running insect monitoring schemes in the world. The scheme began in 1976 and now records data on over 3,000 sites per year across the UK; incorporating traditional butterfly transects, Wider Countryside Butterfly Survey (WCBS), and targeted surveys

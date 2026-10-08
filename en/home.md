@@ -23,10 +23,12 @@ composition:
 permalink: /
 ---
 
-The [Biological Records Centre](https://www.brc.ac.uk/) is part of the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk/) and works in partnership with more than 100 [recording schemes and societies](https://www.brc.ac.uk/recording-schemes) to mobilize species occurrence records in the UK. Since it's establishment in 1964, BRC has been supported and co-funded by the [Joint Nature Conservation Committee](https://www.jncc.gov.uk/) and the [Natural Environment Research Council](http://www.nerc.ac.uk/) (through National Capability awards to UKCEH). The mobilization of data from these recording schemes & socities through to GBIF is often via the [National Biodiversity Network (NBN)](https://nbnatlas.org/).
+The [Biological Records Centre](https://www.brc.ac.uk/) is part of the [UK Centre for Ecology & Hydrology](https://www.ceh.ac.uk/) and works in partnership with more than 100 [recording schemes and societies](https://www.brc.ac.uk/recording-schemes) to mobilize species occurrence records in the UK. Since it's establishment in 1964, BRC has been supported and co-funded by the [Joint Nature Conservation Committee](https://www.jncc.gov.uk/) and the [Natural Environment Research Council](http://www.nerc.ac.uk/) (through National Capability awards to UKCEH). The mobilization of data from these recording schemes & socities through to GBIF is often via the [National Biodiversity Network (NBN)](https://nbn.org.uk/) through the [NBN Atlas](https://nbnatlas.org/).
 
 The BRC has helped to mobilize over 100 Million records, covering a broad range of animal and plant group. Verification workflows are well-developed by the schemes to ensure that the data are accurate.  
 
 The data have been used for local and national assessments of biodiversity change, including official biodiversity indicators, as well as address a range of basic and applied research questions. 
 
 BRC also helps the community to publish regional and national atlases, provide data and website infrastructure, develop verification workflows, and provide tools to support the involvement of citizen scientists in biodiversity monitoring. Please see the [BRC website](https://www.brc.ac.uk/) for more details.
+
+![Logos for BRC, UKCEH and NBN Trust](/assets/images/brc_ukceh_nbntrust-logos.png)

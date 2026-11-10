@@ -22,7 +22,7 @@ Contains computer vision or image recognition species identification support. Al
 ### occAssess
 An R package that enables straightforward screening of species occurrence data for potential biases. The package contains a number of discrete functions, each of which returns a measure of the potential for bias in one or more of the taxonomic, temporal, spatial, and environmental dimensions.
 
-The package is available via [github](https://github.com/robboyd/occAssess).
+The package is available via [github](https://github.com/sacrevert/occAssess2).
 
 ### fresacalo (R package)
 An R package that contains an R reimplementation of the Frescalo method. The R package includes the option of running the frescalo analyses in parallel on multi-processor computers or computing clusters.
